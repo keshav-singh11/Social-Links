@@ -1,0 +1,76 @@
+@font-face {
+  font-family: justafont;
+  src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: block;
+    width: 50%;
+    margin: 0;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 2%;
+  }
+}
+@media (min-width:701px) and (max-width: 1000px) {
+  .container {
+    display: block;
+    /* width: 50%; */
+    margin: 2% 25%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 2%;
+  }
+}
+@media (min-width:1001px) and (max-width: 1400px) {
+  .container {
+    display: block;
+    /* width: 50%; */
+    margin: 2% 35%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 2%;
+  }
+}
+
+* {
+  font-family: justafont;
+  background-color: hsl(0, 0%, 8%);
+
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.links {
+  margin-top: 2%;
+  background-color: hsl(0, 0%, 12%);
+  padding: 5%;
+}
+.link {
+  display: block;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 4%;
+  font-weight: 700;
+  transition: background-color 0.4s, color 0.3s;
+}
+
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+.links a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+}
+
+
